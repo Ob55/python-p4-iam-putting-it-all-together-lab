@@ -8,6 +8,7 @@ class User(db.Model, SerializerMixin):
 
     pass
 
+
 class Recipe(db.Model, SerializerMixin):
     __tablename__ = 'recipes'
     
